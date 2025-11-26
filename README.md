@@ -68,7 +68,6 @@ apt-get install -y sqlite3
 6. **Acessar o banco**
 - sqlite3 marketing.db
 
-5. **Executar o script principal**
 
 ## 📈 Queries de Negócio
 ### 1. Campanha mais cara
@@ -108,5 +107,6 @@ ORDER BY total_leads DESC
 LIMIT 1;
 
 ```
+
 
 
