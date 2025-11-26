@@ -58,8 +58,15 @@ Colunas principais:
 - docker build -t marketing_case .
 - docker run -v $(pwd)/data:/app/data marketing_case
 
-4. **Executar o script principal**
-- python main.py
+4. **Acessar o bash do Docker**
+- docker exec -it <nome_container> bash
+
+5. **Instalar o SQLlite dentro do **
+apt-get update
+apt-get install -y sqlite3
+
+6. **Acessar o banco**
+- sqlite3 marketing.db
 
 5. **Executar o script principal**
 
@@ -101,4 +108,5 @@ ORDER BY total_leads DESC
 LIMIT 1;
 
 ```
+
 
