@@ -45,7 +45,6 @@ Colunas principais:
 
 ---
 
-## 📈 Queries de Negócio
 
 
 ## 🔄 Como Reproduzir
@@ -64,6 +63,7 @@ Colunas principais:
 
 4. **Executar o script principal**
 
+## 📈 Queries de Negócio
 ### 1. Campanha mais cara
 ```sql
 SELECT campaign_id, campaign_name, SUM(cost) AS total_cost
@@ -99,4 +99,5 @@ WHERE lead_id IS NOT NULL
 GROUP BY ad_creative_id
 ORDER BY total_leads DESC
 LIMIT 1;
+
 ```
