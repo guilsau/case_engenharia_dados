@@ -55,13 +55,13 @@ Colunas principais:
    cd case_engenharia_dados
 
 2. **Subir o ambiente Docker**
-   docker build -t marketing_case .
-   docker run -v $(pwd)/data:/app/data marketing_case
-
-3. **Executar o script principal**
-   python main.py
+- docker build -t marketing_case .
+- docker run -v $(pwd)/data:/app/data marketing_case
 
 4. **Executar o script principal**
+- python main.py
+
+5. **Executar o script principal**
 
 ## 📈 Queries de Negócio
 ### 1. Campanha mais cara
@@ -101,3 +101,4 @@ ORDER BY total_leads DESC
 LIMIT 1;
 
 ```
+
